@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+/* navbar */
+.navbar{
+    background-color:whitesmoke;
+    color: black;
+    overflow: auto;
+    justify-content: space-evenly;
+}
+.navbar h4{
+    padding: 20px;
+    float: left;
+    margin-left: 100px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin-right: 60px;
+}
+.navbar ul{
+    float: right;
+    list-style: none;
+}
+.navbar ul li {
+    display: inline-block;
+}
+.navbar ul li a{
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
+.navbar ul li a:hover{
+    border-bottom-style: solid;
+}
+/* firsts */
+.firsts{
+background-image: url(https://i.pinimg.com/564x/07/6a/3b/076a3bc8f783906f68afb0987070494b.jpg);    
+ height: 400px; 
+background-size:100% ;
+ background-position:right bottom , left top ; 
+ background-repeat: no-repeat;
+ padding:100px;
+}
+.top h1{
+    font-size:xx-large;
+    padding: 10px;
+}
+.top p{
+    padding: 10px;
+}
+.top span{
+    color: rgb(65, 203, 65);
+}
+.top button {
+    background-color: rgb(65, 183, 65);
+    color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border-radius :50px;
+    border-color: transparent;
+}
+/* seconds */
+.seconds div {
+    display:inline-block;
+    margin: 70px;
+}
+.seconds div i {
+    color: rgb(3, 211, 3);
+}
+.seconds span {
+    font-size: x-large;
+}
+.seconds p{
+    color: gray;
+}
+/* thirds */
+div.photos{
+    flex-direction: row;
+}
+div.photo1{
+    background-image: url(https://i.pinimg.com/564x/f0/40/ed/f040edc3e5143712fd2610b01d46e209.jpg); 
+    height: 400px; 
+   background-size:48% ;
+    background-position:left bottom , left top ; 
+    background-repeat: no-repeat;
+    padding:100px;
+     margin: 20px;
+    margin-top: -70px;
+    margin-left: 70px;  
+}
+div.photo1 P{
+    padding: 15PX;
+    font-size: larger;
+    margin-top: 80px;
+    color: rgba(0, 0, 0, 0.628);
+}
+div.photo1 h4 {
+    padding: 15PX;
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.628);
+}
+div.photo1 a {
+    padding: 15PX;
+    color: rgba(0, 0, 0, 0.628);
+    text-decoration: none;
+    font-size: large;
+}
+ div.photo1 u{
+    text-decoration-color: rgb(10, 109, 76);
+} 
+div.photo2{
+    background-image: url(https://i.pinimg.com/564x/07/6a/3b/076a3bc8f783906f68afb0987070494b.jpg);
+    height: 400px; 
+   background-size:45% ;
+    background-position:right top ,left top ; 
+    background-repeat: no-repeat;
+    padding:100px;
+    margin: 20px;
+    margin-top: -340px;
+    margin-right: 60px;
+}
+  div.photo2 P{
+    padding: 15PX;
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.628);
+    margin-left: 600px;
+}
+div.photo2 h4 {
+    padding: 15PX;
+    font-size: x-large;
+    color: rgba(0, 0, 0, 0.628);
+    margin-left: 600px;
+}
+div.photo2 a {
+    padding: 15PX;
+    color: rgba(0, 0, 0, 0.628);
+    text-decoration: none;
+    font-size: large;
+    margin-left: 600px;
+    } 
+    div.photo2 u{
+        text-decoration-color: rgb(17, 140, 25);
+    } 
+    /* fourths */
+    .hh1{
+        text-align: center;
+        text-decoration:underline rgb(144, 29, 167) ;
+    }
+    .SPANP{
+        color: green;
+        text-decoration: underline;
+         margin-left: 350px; 
+        text-align: center;
+    }
+    /* last */
+.last1 {
+    background-image: url(https://res.cloudinary.com/patch-gardens/image/upload/c_fill,f_auto,h_840,q_auto:good,w_840/v1618417503/zgnud3sevf66nz1edavt.jpg);
+    background-size: 60% ;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 20px;
+    width: 300px;
+    margin-left:150px ;
+    margin-top:50px ;
+}
+.last2 {
+    background-image: url(https://res.cloudinary.com/patch-gardens/image/upload/c_fill,f_auto,h_840,q_auto:good,w_840/v1594920024/n2vtzjsjzx7qmhdhiqln.jpg);
+    background-size: 60%;
+    background-repeat:no-repeat ;
+    height: 200px; ;
+    padding: 20px;
+    width: 300px; ;
+    margin-left:400px ;
+    margin-top:-200px ;
+}
+.last3 {
+    background-image: url(https://nacnepal.com/upload/images/news/1651551448.jpeg);
+    background-size:60% ;
+    background-repeat:no-repeat ;
+    height: 200px; ;
+    padding: 20px; ;
+    width:300px ;
+    margin-left:650px ;
+    margin-top: -200px;
+}
+.last4 {
+    background-image: url(https://res.cloudinary.com/patch-gardens/image/upload/c_fill,f_auto,h_840,q_auto:good,w_840/v1690131660/pz8zaxtxqunbvciaql1m.jpg);
+    background-size:60% ;
+    background-repeat:no-repeat ;
+    height:200px ;
+    padding:20px ;
+    width:300px ;
+    margin-left:900px ;
+    margin-top: -200px;
+}
+   /* media queries */
+   @media (max-width:600px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    div.photo1 P{
+        padding: 15PX;
+        margin-top:-20px;
+        margin-left: 130px;
+        font-size: small;
+    }
+    div.photo1 h4 {
+        padding: 15PX;
+        margin-top: -20px;
+        margin-left: 130px;
+        font-size:large;
+    }
+    div.photo1 a {
+        padding: 15PX;
+        margin-top:30px;
+        margin-left: 130px;
+   }
+   div.photo2 P{
+    padding: 15PX;
+    margin-top:80px;
+    margin-left: -50px;
+    font-size: small;
+}
+div.photo2 h4 {
+    padding: 15PX;
+    margin-top: -20px;
+    margin-left: -50px;
+    font-size:large;
+}
+div.photo2 a {
+    padding: 15PX;
+    margin-top:30px;
+    margin-left: -50px;
+}
+.SPANP{
+     margin-left: -60px; 
+     display: block;
+    text-align: center;
+}
+.four{
+margin-left:120px;
+   }
+   .last1{
+    margin-left:50px ;
+   }
+   .last2{
+    margin-left:350px ;
+   }
+   .last3{
+    margin-left:50px ;
+    margin-top:10px ;
+   }
+   .last4{
+    margin-left:350px ;
+    margin-top:-200px ;
+   }
+   }
